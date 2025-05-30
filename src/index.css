@@ -8,3 +8,83 @@
 body{
   font-family: var(--font-primaria);
 }
+
+
+/*Inicio*/
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35em;
+}
+
+.home-tittle{
+  height: 40em;
+  width: 45em;
+  background-image: url("./assets/fundo-prato.svg");
+  background-position: center center;
+  background-size: 40em;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+margin-right: 30em;
+}
+.tittle-principal{
+  width: 30em;
+}
+
+.home-tittle h3{
+  font-size: 5em;
+  font-weight: 600;
+  color: #FBECE9;
+}
+.home-tittle p{
+  font-size: 2em;
+  font-weight: 200;
+  color: #FBECE9;
+}
+
+.home-button{
+  background-color: #EEECEC;
+  width: 9em;
+  height: 3em;
+  border: none;
+  border-radius: 10px;
+}
+.home-prato{
+    width: 37em;
+   position: absolute;
+   top: 23em;
+   left: 48em;
+}
+
+/*Main- Home*/
+
+.main-home{
+  display: flex;
+  justify-content: center;
+  height:32em ;
+  padding-top: 2em;
+}
+.main-home img{
+  width: 25em;
+  height: 30em;
+}
+.main-home-text{
+  width: 35em;
+  height: 30em;
+  margin-left: 2em;
+}
+
+.main-home-text h3{
+  color: var(--cor-primaria);
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.main-home-text p{
+  text-align: justify;
+  font-weight: 300;
+  margin-top: 2em;
+}
