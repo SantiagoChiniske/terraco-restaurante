@@ -2,6 +2,7 @@
 
 :root{
   --cor-primaria: #D9411E;
+  --cor-secondary:#59403E;
   --font-primaria: "Montserrat", sans-serif;
 }
 
@@ -87,4 +88,47 @@ margin-right: 30em;
   text-align: justify;
   font-weight: 300;
   margin-top: 2em;
+}
+
+/*Section reviews*/
+
+.section-reviews{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.section-reviews h3{
+  color: var(--cor-primaria);
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.section-card-avaliacoes{
+  width: 25em;
+  height: 20em;
+  background-color: var(--cor-secondary);
+  padding: 1em 1em;
+  margin: 1em 0;
+  border-radius: 10px;
+  color: #E6E6E6;
+}
+
+.card-avaliacoes-perfil{
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+}
+.card-avaliacoes-perfil h4{
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 0.3em;
+}
+.card-avaliacoes-perfil img{
+  margin-right: 1em;
+}
+
+.card-avaliacoes-text{
+  font-size: 1em;
+  font-weight: 200;
 }

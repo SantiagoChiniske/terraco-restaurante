@@ -2,7 +2,7 @@ import Header from "../components/header/index"
 import IconCardapio from "../assets/icon-cardapio.svg"
 import ImgPrato from "../assets/prato.svg"
 import ImgEspaco from "../assets/imagem-espaco.png"
-
+import ImgPerfilReviews from "../assets/foto-reviews.svg"
 
 function app (){
     return(
@@ -25,9 +25,33 @@ function app (){
 
             <div className="main-home-text">
                 <h3>Nosso espaço:</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>O Terraço Gourmet é um dos espaços mais charmosos do Shopping Eldorado, projetado com requinte para receber clientes em ocasiões especiais ou para refeições diárias mais refinadas. Localizado no 3º piso, o espaço oferece diversas opções de restaurantes com cardápios variados, atendendo a diferentes gostos. Com vista para o Jockey Club de São Paulo, as grandes janelas proporcionam uma sensação de ambiente aberto e iluminado, ideal para quem aprecia compartilhar momentos nas redes sociais .</p>
             </div>
         </main>
+        <section className="section-reviews">
+            <hr />
+
+
+                <h3>Reviews</h3>
+
+                <div className="section-card-avaliacoes">
+                    <div className="card-avaliacoes-perfil">
+                        <img src={ImgPerfilReviews}alt="" />
+                        <div>
+                            <h4>Nome</h4>
+                            <p>Data:    </p>
+                        </div>      
+                    </div>
+                      <p className="card-avaliacoes-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+
+                        <div>
+                            <img src="" alt="" />
+                        </div>
+
+                </div>
+
+                
+        </section>
         </>
     )
 }

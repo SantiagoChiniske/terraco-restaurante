@@ -4,7 +4,7 @@ import IconCarinho from "../../assets/produto-off.svg"
 function header(){
     return(
         <header>
-                <p className="header-tittle">Terraço Gourmet</p>
+                <p className="header-tittlej">Terraço Gourmet</p>
                 <nav className="header-nav">
                     <p>Home</p>
                     <p>Sobre</p>
