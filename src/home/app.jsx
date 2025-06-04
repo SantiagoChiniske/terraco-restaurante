@@ -3,6 +3,17 @@ import IconCardapio from "../assets/icon-cardapio.svg"
 import ImgPrato from "../assets/prato.svg"
 import ImgEspaco from "../assets/imagem-espaco.png"
 import ImgPerfilReviews from "../assets/foto-reviews.svg"
+import Carousel from "../components/carrosel"
+
+
+
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 function app (){
     return(
@@ -33,25 +44,10 @@ function app (){
 
 
                 <h3>Reviews</h3>
-
-                <div className="section-card-avaliacoes">
-                    <div className="card-avaliacoes-perfil">
-                        <img src={ImgPerfilReviews}alt="" />
-                        <div>
-                            <h4>Nome</h4>
-                            <p>Data:    </p>
-                        </div>      
-                    </div>
-                      <p className="card-avaliacoes-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-
-                        <div>
-                            <img src="" alt="" />
-                        </div>
-
-                </div>
-
-                
         </section>
+
+    <Carousel/>
+
         </>
     )
 }
