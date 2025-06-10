@@ -26,15 +26,16 @@ const Carousel = () => (
             <CardAvaliacoes
             name="Santiago"
             date="12/03/2025"
-            paragraph= "JSHDJASHDKjashdjkashdjkahsgdhajksdgakjsdhahsjkdhasjkd"
+            paragraph= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cupiditate sequi architecto soluta quam sit, quas ratione sed dignissimos suscipit, illum in reprehenderit, consequatur numquam expedita nost"
             />
 
+            
     </SwiperSlide>
     <SwiperSlide>
          <CardAvaliacoes
             name="Santiago"
             date="12/03/2025"
-            paragraph= "JSHDJASHDKjashdjkashdjkahsgdhajksdgakjsdhahsjkdhasjkd"
+            paragraph= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cupiditate sequi architecto soluta quam sit, quas ratione sed dignissimos suscipit, illum in reprehenderit, consequatur numquam expedita nostrum minima fugit iste."
             />
         
     </SwiperSlide>
