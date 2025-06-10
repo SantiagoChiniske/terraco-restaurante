@@ -4,6 +4,7 @@ import ImgPrato from "../assets/prato.svg"
 import ImgEspaco from "../assets/imagem-espaco.png"
 import ImgPerfilReviews from "../assets/foto-reviews.svg"
 import Carousel from "../components/carrosel"
+import Footer from "../components/footer"
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -43,8 +44,7 @@ function app (){
                  <Carousel/>
 
         </section>
-
-   
+                    <Footer/>
 
 
         </>
