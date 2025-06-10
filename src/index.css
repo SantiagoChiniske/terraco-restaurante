@@ -104,31 +104,3 @@ margin-right: 30em;
   font-weight: 500;
 }
 
-.section-card-avaliacoes{
-  width: 20em;
-  height: 20em;
-  background-color: var(--cor-secondary);
-  padding: 1em 1em;
-  margin: 1em 0;
-  border-radius: 10px;
-  color: #E6E6E6;
-}
-
-.card-avaliacoes-perfil{
-  display: flex;
-  align-items: center;
-  margin-bottom: 2em;
-}
-.card-avaliacoes-perfil h4{
-  font-size: 1.5em;
-  font-weight: 700;
-  margin-bottom: 0.3em;
-}
-.card-avaliacoes-perfil img{
-  margin-right: 1em;
-}
-
-.card-avaliacoes-text{
-  font-size: 1em;
-  font-weight: 200;
-}

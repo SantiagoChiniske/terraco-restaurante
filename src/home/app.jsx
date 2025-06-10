@@ -5,11 +5,6 @@ import ImgEspaco from "../assets/imagem-espaco.png"
 import ImgPerfilReviews from "../assets/foto-reviews.svg"
 import Carousel from "../components/carrosel"
 
-
-
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-
-import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -43,10 +38,14 @@ function app (){
             <hr />
 
 
-                <h3>Reviews</h3>
+                <h3>Reviews</h3>    
+
+                 <Carousel/>
+
         </section>
 
-    <Carousel/>
+   
+
 
         </>
     )
